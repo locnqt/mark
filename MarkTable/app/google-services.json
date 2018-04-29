@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1062336161579",
+    "firebase_url": "https://demotest-63562.firebaseio.com",
+    "project_id": "demotest-63562",
+    "storage_bucket": "demotest-63562.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062336161579:android:1570085cf568beb1",
+        "android_client_info": {
+          "package_name": "lonqt.example.com.marktable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062336161579-rn4eaafh7n8a72nb3oiv7f0fs5lvgr4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd726s0tup4wSeziYsJyGckq6BR-qihfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

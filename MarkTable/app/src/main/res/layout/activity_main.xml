@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c4c4c1"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerHocky"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp" />
+
+            <Spinner
+                android:id="@+id/spinnerNamhoc"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LinerLayoutTongket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="35dp"
+            android:paddingVertical="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Điểm TB hệ 10" />
+
+                <TextView
+                    android:id="@+id/tvdiemtbhe10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Điểm TB hệ 4" />
+
+                <TextView
+                    android:id="@+id/tvdiemtbhe4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Phân loại học lực" />
+
+                <TextView
+                    android:id="@+id/tvphanloaihocluc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Phân loại rèn luyện" />
+
+                <TextView
+                    android:id="@+id/tvphanloaitenluyen"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="-10dp"
+                android:background="@android:color/black"
+                android:paddingVertical="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Điểm TB tích lũy hệ 10 " />
+
+                <TextView
+                    android:id="@+id/tvdiemtbtichluyhe10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Điểm TB tích lũy hệ 4" />
+
+                <TextView
+                    android:id="@+id/tvdiemtbtichluyhe4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:paddingLeft="15dp"
+                    android:paddingVertical="2dp"
+                    android:text="Số tín chỉ tích lũy" />
+
+                <TextView
+                    android:id="@+id/tvsotinchitichluy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvbangdiemchitiet"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="Bảng điễm chi tiết học kỳ I năm 2018"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <ExpandableListView
+                android:id="@+id/Expandlv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:divider="#7b7777"
+                android:dividerHeight="1dp"
+                android:listSelector="#61615e" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
