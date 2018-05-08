@@ -17,16 +17,16 @@ import java.util.List;
  * Created by locnq on 4/13/2018.
  */
 
-public class SemesterMarkAdapter extends ArrayAdapter<Class> {
+public class SemesterMarkAdapter extends ArrayAdapter<Subject> {
 
     private Context context;
     private int resource;
-    private List<Class> objects;
+    private List<Subject> objects;
 
     private ArrayList<String> arrayhocky;
     private ArrayList<Integer> arraynamhoc;
 
-    public SemesterMarkAdapter(@NonNull Context context, int resource, @NonNull List<Class> objects) {
+    public SemesterMarkAdapter(@NonNull Context context, int resource, @NonNull List<Subject> objects) {
         super(context, resource, objects);
         this.context = context;
         this.resource = resource;
@@ -50,7 +50,7 @@ public class SemesterMarkAdapter extends ArrayAdapter<Class> {
         TextView tvdiemtbtichluyhe4 = (TextView) convertView.findViewById(R.id.tvdiemtbtichluyhe4);
         TextView tvsotinchitichluy = (TextView) convertView.findViewById(R.id.tvsotinchitichluy);
 
-        Class Class = objects.get(position);
+        Subject Class = objects.get(position);
 
         return convertView;
     }

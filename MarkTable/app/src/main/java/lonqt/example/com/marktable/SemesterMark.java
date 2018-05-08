@@ -9,9 +9,12 @@ public class SemesterMark {
     private double TBhe4;
     private double TBtichluyhe10;
     private double TBtichluyhe4;
-    private double sotinchotichluy;
+    private double sotinchitichluy;
     private String plhocluc;
     private String plrenluyen;
+
+    private String semester;
+    private String year;
 
     public SemesterMark() {
     }
@@ -48,12 +51,12 @@ public class SemesterMark {
         this.TBtichluyhe4 = TBtichluyhe4;
     }
 
-    public double getSotinchotichluy() {
-        return sotinchotichluy;
+    public double getSotinchitichluy() {
+        return sotinchitichluy;
     }
 
-    public void setSotinchotichluy(double sotinchotichluy) {
-        this.sotinchotichluy = sotinchotichluy;
+    public void setSotinchitichluy(double sotinchitichluy) {
+        this.sotinchitichluy = sotinchitichluy;
     }
 
     public String getPlhocluc() {
@@ -70,5 +73,21 @@ public class SemesterMark {
 
     public void setPlrenluyen(String plrenluyen) {
         this.plrenluyen = plrenluyen;
+    }
+
+    public String getSemester() {
+        return semester;
+    }
+
+    public void setSemester(String semester) {
+        this.semester = semester;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
     }
 }

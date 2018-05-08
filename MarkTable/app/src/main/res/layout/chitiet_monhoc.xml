@@ -21,16 +21,66 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10%" />
+            android:text="0%" />
 
         <TextView
             android:id="@+id/tvchuyencan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Thực hành" />
+
+        <TextView
+            android:id="@+id/tvphantramth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0%" />
+
+        <TextView
+            android:id="@+id/tvthuchanh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Bài tập" />
+
+        <TextView
+            android:id="@+id/tvphantrambt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0%" />
+
+        <TextView
+            android:id="@+id/tvbaitap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0" />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,14 +97,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="20%" />
+            android:text="0%" />
 
         <TextView
             android:id="@+id/tvktgiuaky"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 
     <LinearLayout
@@ -73,14 +123,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="70%" />
+            android:text="0%" />
 
         <TextView
             android:id="@+id/tvthilan1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 
     <View
@@ -104,7 +154,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 
     <LinearLayout
@@ -123,7 +173,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 
     <View
@@ -146,7 +196,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 
     <LinearLayout
@@ -164,6 +214,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="10" />
+            android:text="0" />
     </LinearLayout>
 </LinearLayout>

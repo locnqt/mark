@@ -12,6 +12,7 @@ public class Mark {
     private double CC ;
     private double KT ;
     private double TH ;
+    private double BT ;
     private double THI ;
     private String KQ;
     private double TK;
@@ -19,6 +20,14 @@ public class Mark {
     private String TKCHU;
 //    private String xepLoai;
     private int soTC;
+
+    private int CC_Percentage;
+    private int BT_Percentage;
+    private int TH_Percentage;
+    private int KT_Percentage;
+    private int THI_Percentage;
+    private String studentName;
+    private String studentid;
 
     public Mark() {
     }
@@ -61,6 +70,14 @@ public class Mark {
 
     public void setTH(double TH) {
         this.TH = TH;
+    }
+
+    public double getBT() {
+        return BT;
+    }
+
+    public void setBT(double BT) {
+        this.BT = BT;
     }
 
     public double getTHI() {
@@ -109,5 +126,61 @@ public class Mark {
 
     public void setTKCHU(String TKCHU) {
         this.TKCHU = TKCHU;
+    }
+
+    public int getCC_Percentage() {
+        return CC_Percentage;
+    }
+
+    public void setCC_Percentage(int CC_Percentage) {
+        this.CC_Percentage = CC_Percentage;
+    }
+
+    public int getBT_Percentage() {
+        return BT_Percentage;
+    }
+
+    public void setBT_Percentage(int BT_Percentage) {
+        this.BT_Percentage = BT_Percentage;
+    }
+
+    public int getTH_Percentage() {
+        return TH_Percentage;
+    }
+
+    public void setTH_Percentage(int TH_Percentage) {
+        this.TH_Percentage = TH_Percentage;
+    }
+
+    public int getKT_Percentage() {
+        return KT_Percentage;
+    }
+
+    public void setKT_Percentage(int KT_Percentage) {
+        this.KT_Percentage = KT_Percentage;
+    }
+
+    public int getTHI_Percentage() {
+        return THI_Percentage;
+    }
+
+    public void setTHI_Percentage(int THI_Percentage) {
+        this.THI_Percentage = THI_Percentage;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public String getStudentid() {
+        return studentid;
+    }
+
+    public void setStudentid(String studentid) {
+        this.studentid = studentid;
     }
 }

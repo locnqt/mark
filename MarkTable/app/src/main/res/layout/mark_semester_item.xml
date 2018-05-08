@@ -1,71 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="11"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvbangdiemchitietse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="Bảng điễm chi tiết học kỳ I năm 2018"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold" />
 
-        <LinearLayout
-            android:id="@+id/LinerLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#c4c4c1"
-            android:orientation="horizontal">
-
-            <TextView
-                android:visibility="gone"
-                android:id="@+id/tvnamhoc"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="9"
-                android:text="Xem theo năm học"
-                android:paddingLeft="15dp"
-                android:gravity="center"
-                android:textSize="20sp" />
-
-            <Spinner
-                android:id="@+id/spinnerHocky"
-                style="@style/Widget.AppCompat.Spinner.Underlined"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="5"
-                android:paddingLeft="10dp" />
-
-            <Spinner
-                android:id="@+id/spinnerNamhoc"
-                style="@style/Widget.AppCompat.Spinner.Underlined"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="5"
-                android:paddingLeft="10dp" />
-
-            <ImageView
-                android:id="@+id/imgmn"
-                android:layout_width="0dp"
-                android:layout_height="42dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/menu_icon_dot" />
-        </LinearLayout>
-    </LinearLayout>
-        <ListView
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/lvnamhoc">
-        </ListView>
     <LinearLayout
-        android:id="@+id/linearsemester"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -94,12 +45,13 @@
                     android:text="Điểm TB hệ 10" />
 
                 <TextView
-                    android:id="@+id/tvdiemtbhe10"
+                    android:id="@+id/tvdiemtbhe10se"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:text="0" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -114,7 +66,7 @@
                     android:text="Điểm TB hệ 4" />
 
                 <TextView
-                    android:id="@+id/tvdiemtbhe4"
+                    android:id="@+id/tvdiemtbhe4se"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -135,7 +87,7 @@
                     android:text="Phân loại học lực" />
 
                 <TextView
-                    android:id="@+id/tvphanloaihocluc"
+                    android:id="@+id/tvphanloaihoclucse"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -156,7 +108,7 @@
                     android:text="Phân loại rèn luyện" />
 
                 <TextView
-                    android:id="@+id/tvphanloaitenluyen"
+                    android:id="@+id/tvphanloaitenluyense"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -184,7 +136,7 @@
                     android:text="Điểm TB tích lũy hệ 10 " />
 
                 <TextView
-                    android:id="@+id/tvdiemtbtichluyhe10"
+                    android:id="@+id/tvdiemtbtichluyhe10se"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -205,7 +157,7 @@
                     android:text="Điểm TB tích lũy hệ 4" />
 
                 <TextView
-                    android:id="@+id/tvdiemtbtichluyhe4"
+                    android:id="@+id/tvdiemtbtichluyhe4se"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -226,47 +178,12 @@
                     android:text="Số tín chỉ tích lũy" />
 
                 <TextView
-                    android:id="@+id/tvsotinchitichluy"
+                    android:id="@+id/tvsotinchitichluyse"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:text="0" />
             </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearexplist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="6"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/tvbangdiemchitiet"
-                android:layout_width="match_parent"
-                android:layout_height="19dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:gravity="left"
-                android:paddingLeft="10dp"
-                android:text="Bảng điễm chi tiết học kỳ I năm 2018"
-                android:textColor="@android:color/holo_blue_light"
-                android:textStyle="bold" />
-
-            <ExpandableListView
-                android:id="@+id/Expandlv"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:divider="#7b7777"
-                android:dividerHeight="1dp"/>
-                <!--android:listSelector="#61615e" -->
         </LinearLayout>
     </LinearLayout>
 

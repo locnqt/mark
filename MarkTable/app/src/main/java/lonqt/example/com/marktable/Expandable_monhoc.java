@@ -87,8 +87,14 @@ public class Expandable_monhoc extends BaseExpandableListAdapter {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         convertview = inflater.inflate(R.layout.chitiet_monhoc, null);
 
-//        TextView tvtenmonhoc = convertview.findViewById(R.id.tvtenmonhoc);
+        TextView tvphantramcc = convertview.findViewById(R.id.tvphantramcc);
+        TextView tvphantramth = convertview.findViewById(R.id.tvphantramth);
+        TextView tvphantrambt = convertview.findViewById(R.id.tvphantrambt);
+        TextView tvphantramkt = convertview.findViewById(R.id.tvphantramkt);
+        TextView tvphantramthi = convertview.findViewById(R.id.tvphantramthi);
         TextView tvchuyencan = convertview.findViewById(R.id.tvchuyencan);
+        TextView tvthuchanh = convertview.findViewById(R.id.tvthuchanh);
+        TextView tvbaitap = convertview.findViewById(R.id.tvbaitap);
         TextView tvktgiuaky = convertview.findViewById(R.id.tvktgiuaky);
         TextView tvthilan1 = convertview.findViewById(R.id.tvthilan1);
         TextView tvdiemtbtichluyhe10 = convertview.findViewById(R.id.tvdiemtbhe10monhoc);
@@ -96,8 +102,14 @@ public class Expandable_monhoc extends BaseExpandableListAdapter {
         TextView tvsotinchi = convertview.findViewById(R.id.tvsotinchi);
         TextView tvkq = convertview.findViewById(R.id.tvkq);
 
-//        tvTKChu.setText(item.getTKCHU());
+        tvphantramcc.setText(String.valueOf(item.getCC_Percentage()));
+        tvphantramth.setText(String.valueOf(item.getTH_Percentage()));
+        tvphantrambt.setText(String.valueOf(item.getBT_Percentage()));
+        tvphantramkt.setText(String.valueOf(item.getKT_Percentage()));
+        tvphantramthi.setText(String.valueOf(item.getTHI_Percentage()));
         tvchuyencan.setText(String.valueOf(item.getCC()));
+        tvthuchanh.setText(String.valueOf(item.getTH()));
+        tvbaitap.setText(String.valueOf(item.getBT()));
         tvktgiuaky.setText(String.valueOf(item.getKT()));
         tvthilan1.setText(String.valueOf(item.getTHI()));
         tvdiemtbtichluyhe10.setText(String.valueOf(item.getTK()));

@@ -7,14 +7,16 @@
         android:id="@+id/tvtenmonhoc"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="9"
+        android:layout_weight="10"
         android:paddingHorizontal="10dp"
-        android:text="hello" />
+        android:text="hello"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvTKChu"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:text="A+" />
+        android:text="X"
+        android:textStyle="bold" />
 </LinearLayout>
